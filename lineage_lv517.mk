@@ -24,6 +24,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from lv517 device
 $(call inherit-product, device/lge/lv517/device.mk)
+$(call inherit-product, device/lge/msm8937-common/msm8937.mk)
 
 BOARD_VENDOR := lge
 PRODUCT_DEVICE := lv517
